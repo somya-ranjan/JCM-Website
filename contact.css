@@ -1,0 +1,93 @@
+#conatct_section{
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+    background-color: rgb(216, 216, 216);
+    padding: 30px 0 100px 0;
+}
+#map iframe{
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+#form{
+    /* height: 700px; */
+}
+textarea{
+    resize: none;
+}
+#form .address{
+    height: 120px;
+}
+#form .message{
+    height: 150px;
+}
+#contact_footer{
+    padding: 60px 0 30px 0;
+}
+#contact_footer h6 span{
+    font-weight: 600;
+    font-size: 17px;
+    color: #0A1931;
+}
+#contact_footer i{
+    font-size: 25px;
+    color: #fff;
+    background-color: #0A1931;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Responsive */
+@media only screen and (max-width:1025px){
+    #map iframe{
+        height: 500px;
+        width: 400px;
+        border-radius: 10px;
+    }
+    #form .address{
+        height: 110px;
+    }
+    #form .message{
+        height: 130px;
+    }
+    #contact_footer{
+        padding: 70px 0 40px 0;
+    }
+}
+@media only screen and (max-width:768px){
+    #conatct_section{
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+        padding: 30px 0 100px 0;
+    }
+    #map iframe{
+        height: 400px;
+        width: 550px;
+        display: block;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width:376px){
+    #conatct_section{
+        clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+        padding: 30px 0 40px 0;
+    }
+    #map iframe{
+        height: 300px;
+        width: 310px;
+        display: block;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}

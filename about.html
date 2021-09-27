@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <!-- style -->
+    <link rel="stylesheet" href="home.css">
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>JCM Enterprise</title>
+  </head>
+  <body>
+        <!-- nav var -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./home.html" id="logo"><span>JCM</span> Enterprise</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pr-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.indiamart.com/jcm-enterprises/profile.html" target="_blank">Others</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         <!-- slider -->
+         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"  style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./media/b1.jpg);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-1 fw-bold">JCM <span style="color: #fff;font-weight: 600;">Enerprise</span></h5>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./media/b2.jpg);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-1 fw-bold">JCM <span style="color: #fff;font-weight: 600;">Enerprise</span></h5>
+                        <p>Grow Your Business With Good Dealing :)</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./media/b3.jpg);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-1 fw-bold">JCM <span style="color: #fff;font-weight: 600;">Enerprise</span></h5>
+                        <p>Start A Good Profitable Business With Us.</p>
+                     </div>
+                </div>
+                <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./media/b4.jpg);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fs-1 fw-bold">JCM <span style="color: #fff;font-weight: 600;">Enerprise</span></h5>
+                        <p>Start A Profitable Paper Plate Business.</p>
+                     </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- About -->
+        <div class="container-fluid" >
+            <div class="row justify-content-evenly" id="about_us">
+                <h1 class="display-4 fw-normal text-center mb-3">About Us</h1>
+                <div class="col-lg-5 col-10 align-self-center">
+                    <p class="about_p">Established in the year 2019 at Jagatsinghapur,Odisha, we "M/S JCM Enterprises" are as Sole Proprietorship based firm ,enged as the foremost Manufacturere,Retailer of Paper Plate , Paper Cup etc .Our products are high in demand due to their premium quality and affordable prices.Furthermore ,we ensure to timely deliver these products to our clients, through this we have gained a huge clients base in the market . Sapiente eos ipsa quidem minus fuga. Eos veniam vel labore perspiciatis reiciendis, culpa at dolor esse. Minima nemo tempora aut architecto fugit laboriosam voluptas qui repudiandae ullam quibusdam totam culpa voluptatibus atque rem assumenda placeat corporis exercitationem nihil, perspiciatis debitis delectus ut reprehenderit! Fugit, natus dolorem veritatis dicta eveniet, iste provident molestias ex ratione rerum aspernatur mollitia quas, libero corrupti possimus nihil! Laborum illum corrupti aliquam aperiam, totam architecto quae saepe rem, ex pariatur debitis error sit dolores vel minima tenetur sint quisquam, alias necessitatibus unde. Nam odio aliquam autem.</p>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block align-self-center" id="about_img">
+                    <img src="./media/md.jpg" alt="md img" class="rounded mx-auto">
+                    <h5 class="text-center pt-2">Jayadev Tripathy (M.D)</h5>
+                </div>
+            </div>
+
+        <!-- Our Family -->
+
+            <div class="row justify-content-evenly" id="our_family">
+                <h1 class="display-4 fw-normal text-center mb-5">Our Family</h1>
+                <div class="col-lg-3 our_family_content">
+                    <img src="media/md.jpg" alt="" class="mx-auto">
+                    <div class="row our_family_description">
+                        <h4 class="text-center">aaa</h4>
+                        <h5 class="text-center">Marketing-manager</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 our_family_content">
+                    <img src="media/md.jpg" alt="" class="mx-auto">
+                    <div class="row our_family_description">
+                        <h4 class="text-center">bbbb</h4>
+                        <h5 class="text-center">Sels-manager</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 our_family_content">
+                    <img src="media/md.jpg" alt="" class="mx-auto">
+                    <div class="row our_family_description">
+                        <h4 class="text-center">cc</h4>
+                        <h5 class="text-center">Acountant</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid">
+            <div class="row justify-content-evenly" id="footer">
+                <div class="col-sm-3">
+                    <div class="row" id="footer_logo">
+                        <div class="col-12">
+                            <h1 class="display-6 fw-bold">JCM <span class="fw-normal text-white">Enterprise</span></h1>
+                        </div>
+                    </div>
+                    <div class="row" id="footer_about">
+                        <div class="col-12">
+                            <h3>About Us</h3>
+                            <p>Established in the year 2019 at Jagatsinghapur,Odisha, we "M/S JCM Enterprises" are as Sole Proprietorship based firm ,enged as the foremost Manufacturere,Retailer of Paper Plate , Paper Cup etc .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2" id="footer_link">
+                    <h3>Helpful Links</h3>
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="#about_us">About</a></li>
+                        <li><a href="./product.html">Products</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2" id="footer_social_media">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/jayadev.tripathy.54" target="_blank">Facebook</a></li>
+                        <li><i class="fab fa-instagram-square"></i><a href="https://www.instagram.com/jcm.enterprises" target="_blank">Instagram</a></li>
+                        <li><i class="fab fa-twitter-square"></i><a href="" target="_blank">Twiter</a></li>
+                        <li><i class="fab fa-linkedin"></i><a href="" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2" id="footer_contact">
+                    <h3>Contact Us</h3>
+                    <h6><i class="fas fa-phone-alt"></i>78787878778</h6>
+                    <h6><i class="fas fa-envelope"></i>jcm@info.com</h6>
+                </div>
+                <div class="row" id="copy_right">
+                    <div class="col-lg-10">
+                        <h6 class="text-center">Copyright @ 2021 All Rights Reserved </h6>
+                    </div>
+                    <div class="col-lg-2">
+                        <h5 class="text-center">Devloped By :-<a href="https://www.linkedin.com/in/somya-ranjan" target="_blank"><img src="./media/s.png" alt=""></a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
+        <script src="nav.js"></script>
+
+    </body>
+</html>
